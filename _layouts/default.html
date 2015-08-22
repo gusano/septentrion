@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if !IE 7]>
+      <style type="text/css">
+        #global {display:table;height:100%}
+      </style>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;subset=latin,latin-ext' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en' rel='stylesheet'>
+    {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+        <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+      {% endfor %}
+    {% else %}
+      <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+    {% endif %}
+
+    <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+
+  <body>
+    {% include header.md %}
+    <section id="main">
+      {{ content }}
+    </section>
+    {% include menu.md %}
+  </body>
+</html>
