@@ -5,6 +5,7 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
 collections: null
+baseurl: /septentrion
 
 # Handling Reading
 safe:         false

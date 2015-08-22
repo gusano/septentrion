@@ -1,3 +1,6 @@
+---
+title: CSS stylesheet
+---
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,7 +47,7 @@ blockquote, q {
     quotes: "" "";
 }
 html {
-    background: url(../img/4_small.gif) no-repeat center center fixed;
+    background: url({{ site.baseurl }}/img/4_small.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
