@@ -32,6 +32,11 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js?rdm=od60mnu2"></script>
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+        <script src='{{ site.baseurl }}/js/{{ js_file }}.js?rdm=uz76szh' type="text/javascript"></script>
+      {% endfor %}
+    {% endif %}
 
     <!-- fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.ico">
