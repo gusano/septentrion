@@ -11,6 +11,11 @@ group: index
 <table>
 <tbody>
   <tr>
+    <td class="date">2015 10 01</td>
+    <td class="city">Geneva (CH)</td>
+    <td class="location">@Motel Campo (with Cave12)</td>
+  </tr>
+  <tr>
     <td class="date">2014 12 06</td>
     <td class="city">Lyon (FR)</td>
     <td class="location">@Ground Zero</td>
