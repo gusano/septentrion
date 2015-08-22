@@ -6,7 +6,6 @@ $(document).ready(function() {
 
   console.log(page);
   menuSelect(page);
-  addSignature(page);
 });
 
 function menuSelect(page) {
@@ -25,16 +24,4 @@ function menuSelect(page) {
       $(this).addClass('selected');
     }
   });
-}
-
-function addSignature(page) {
-  var sig, menu, noSig;
-
-  menu = $('#menu');
-  noSig = ['about', 'events', 'contact'];
-  sig = '<div class="sig">Photograph courtesy of <a href="http://laurafusato.com">Laura Fusato</a></div>';
-
-  if (noSig.indexOf(page) === -1) {
-    menu.append(sig);
-  }
 }

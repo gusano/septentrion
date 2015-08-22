@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Septentrion
+custom_js: about
 tagline: performance
 group: index
 ---

@@ -2,6 +2,7 @@
 layout: default
 title: Septentrion
 custom_css: base_dark
+custom_js: events
 tagline: performance
 group: index
 ---
