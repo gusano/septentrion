@@ -1,0 +1,44 @@
+- id: 1
+  title: Neo-shamanism
+  desc: "Performed in Europe and Australia through 2014.<br />Discontinued."
+  credits: "5 pictures by <a href=\"https://www.instagram.com/ema_discordant/\" target=\"_blank\">Ema Discordant</a>"
+  images:
+    - 01-0
+    - 01-1
+    - 01-2
+    - 01-3
+    - 01-4
+  gear:
+    - computer
+    - 1500W stroboscope
+    - self-designed controller
+    - ancient instruments
+
+- id: 2
+  title: Puking knowledge
+  desc: "Commissioned by <a href=\"http://cave12.org\" title=\"Cave 12\" target=\"_blank\">Cave 12</a> for <a href=\"http://mosespa.ch/\" title=\"Mos Espa festival\" target=\"_blank\">Mos Espa</a> festival in Geneva (CH), Oct 2015.<br />Discontinued."
+  credits: "1 picture by <a href=\"http://mosespa.ch\" target=\"_blank\">Mos Espa</a>"
+  images:
+    - 02-1
+  gear:
+    - computer
+    - throat microphone
+    - pedals
+    - self-designed controller
+
+- id: 3
+  title: Violentology
+  desc: "Written in <a href=\"https://www.facebook.com/mapateatrolaboratoriodeartistas/\" title=\"Mapa Teatro\" href=\"_blank\">Mapa Teatro</a>, Bogotá D.C. (COL) during a residency in April 2017."
+  credits: "8 pictures extracted from a video by <a href=\"https://www.facebook.com/andkeor\" target=\"_blank\">A. Melendes</a>"
+  images:
+    - 03-0
+    - 03-1
+    - 03-2
+    - 03-3
+    - 03-4
+    - 03-5
+    - 03-6
+    - 03-7
+  gear:
+    - single-board micro-computer
+    - self-designed controller
