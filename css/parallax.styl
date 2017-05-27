@@ -1,0 +1,79 @@
+.container
+  margin 0 auto
+
+.module:last-child
+  margin-bottom 0
+
+.module
+  h2
+    margin-bottom 40px
+
+.module
+  p
+    margin-bottom 40px
+    font-weight 300
+    text-align justify
+    line-height 170%
+  p
+  table
+    font-size 1.5vw
+
+.module
+  p:last-child
+    margin-bottom 0
+
+.module
+  &.content
+    padding 50px 13vw
+
+.module
+  &.parallax
+    height 100vh
+    background-position 50% 50%
+    background-repeat no-repeat
+    background-attachment fixed
+    background-size cover
+
+.module
+  &.parallax
+    h1
+    h2
+      color pinky
+      font-size 15vw
+      font-family 'Roboto', sans-serif
+      line-height 600px
+      font-weight 900
+      text-align center
+      text-shadow 0 0 10px rgba(0, 0, 0, 0.2)
+    h1
+      font-size 15vw
+    h2
+      font-size 8vw
+
+.module
+  &.parallax-1
+    background-image url("../img/ground.png")
+
+.module
+  &.parallax-2
+    background-image url("../img/bg2.jpg")
+
+.module
+  &.parallax-3
+    background-image url("../img/4_small.gif")
+
+@media all and (min-width 600px)
+  .module
+    h2
+      font-size 42px
+
+  .module
+    p
+      font-size 20px
+
+@media all and (min-width 960px)
+  .module
+    &.parallax
+      h1
+        font-size 15vw
+        letter-spacing -5px

@@ -19,23 +19,19 @@
         #global {display:table;height:100%}
       </style>
     <![endif]-->
-    <link href='http://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:900" rel="stylesheet">
     {% if page.custom_css %}
       {% for stylesheet in page.custom_css %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet }}.css?rdm=fbtgdvm3" media="screen" type="text/css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet }}.css?rdm=fbtgdvm4" media="screen" type="text/css">
       {% endfor %}
     {% else %}
-      <link href="{{ site.baseurl }}/css/main.css?rdm=7i341cu3" rel="stylesheet" type="text/css" media="all">
+      <link href="{{ site.baseurl }}/css/main.css?rdm=7i341cu4" rel="stylesheet" type="text/css" media="all">
     {% endif %}
 
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js?rdm=od60mnu2"></script>
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
-        <script src='{{ site.baseurl }}/js/{{ js_file }}.js?rdm=uz76szh' type="text/javascript"></script>
+        <!--<script src='{{ site.baseurl }}/js/{{ js_file }}.js?rdm=uz76szh' type="text/javascript"></script>-->
       {% endfor %}
     {% endif %}
 
@@ -45,11 +41,6 @@
 
   <body>
     {% include header.md %}
-    <section id="main">
-      <h2 class="hidden">content</h2>
-      {{ content }}
-    </section>
-    {% include menu.md %}
-    {% include footer.md %}
+    {{ content }}
   </body>
 </html>
