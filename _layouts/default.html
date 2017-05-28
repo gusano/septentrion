@@ -25,9 +25,11 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet }}.css?rdm=fbtgdvm4" media="screen" type="text/css">
       {% endfor %}
     {% else %}
+      <link href="{{ site.baseurl }}/css/hamburgers.min.css" rel="stylesheet">
       <link href="{{ site.baseurl }}/css/main.css?rdm=7i341cu4" rel="stylesheet" type="text/css" media="all">
     {% endif %}
 
+    <script src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js?rdm=od60mnu2"></script>
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}

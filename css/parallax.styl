@@ -16,7 +16,7 @@
     line-height 170%
   p
   table
-    font-size 1.5vw
+    font-size 1.3vw
 
 .module
   p:last-child
@@ -39,7 +39,6 @@
     h1
     h2
       color pinky
-      font-size 15vw
       font-family 'Roboto', sans-serif
       line-height 600px
       font-weight 900
@@ -47,20 +46,23 @@
       text-shadow 0 0 10px rgba(0, 0, 0, 0.2)
     h1
       font-size 15vw
+      letter-spacing -3px
     h2
       font-size 8vw
+      letter-spacing -1px
 
 .module
   &.parallax-1
-    background-image url("../img/ground.png")
+    // background-image url('../img/ground.png')
+    background-image url('../img/color.jpg')
 
 .module
   &.parallax-2
-    background-image url("../img/bg2.jpg")
+    background-image url('../img/bg2.jpg')
 
 .module
   &.parallax-3
-    background-image url("../img/4_small.gif")
+    background-image url('../img/4_small.gif')
 
 @media all and (min-width 600px)
   .module
@@ -69,11 +71,12 @@
 
   .module
     p
-      font-size 20px
+      font-size 18px
 
 @media all and (min-width 960px)
   .module
     &.parallax
       h1
-        font-size 15vw
-        letter-spacing -5px
+        letter-spacing -10px
+      h2
+        letter-spacing -4px

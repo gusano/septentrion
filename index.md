@@ -7,7 +7,20 @@ group: index
 ---
 
 <main>
-  <section class="module parallax parallax-1">
+  <button class="hamburger hamburger--slider" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+  <div class="menu">
+    <ul>
+      <li class="scroll"><a href="#about">About</a></li>
+      <li class="scroll"><a href="#future">Past&Future</a></li>
+      <li class="scroll"><a href="#contact">Contact</a></li>
+      <li class="scroll"><a href="">Actions</a></li>
+    </ul>
+  </div>
+  <section class="module parallax parallax-1" id="about">
     <div class="container">
       <h1>Septentrion</h1>
     </div>
@@ -37,9 +50,9 @@ group: index
     </div>
   </section>
 
-  <section class="module parallax parallax-2">
+  <section class="module parallax parallax-2" id="future">
     <div class="container">
-      <h2>Events</h2>
+      <h2>Past<span>&Future</span></h2>
     </div>
   </section>
 
@@ -57,18 +70,18 @@ group: index
     </div>
   </section>
 
-  <section class="module parallax parallax-3">
+  <section class="module parallax parallax-3" id="contact">
     <div class="container">
-      <h2>Booking</h2>
+      <h2>Contact</h2>
     </div>
   </section>
 
   <section class="module content">
     <div class="container event">
-      <h2>Booking</h2>
       <p>
-        Somewhere between <b>Madrid (SP)</b>, <b>Bogotá (COL)</b>, <b>Berlin (DE)</b> and <b>Los Angeles (USA)</b>.
+        Find me somewhere between <b>Madrid (SP)</b>, <b>Bogotá (COL)</b>, <b>Berlin (DE)</b> and <b>Los Angeles (USA)</b>.
       </p>
+      <h2>Booking</h2>
       <p>
         <a href="mail-to:booking@s3pt3ntrion.com">booking (at) s3pt3ntrion (dot) com</a>
       </p>

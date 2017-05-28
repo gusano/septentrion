@@ -28,10 +28,77 @@ body
     td
       padding-right 20px
 
+.box-shadow-menu
+  position fixed
+  font-size 32px
+  top 12px
+  left 20px
+  width 32px
+  height 32px
+  &:hover
+    cursor pointer
+    background transparent
+
+.box-shadow-menu:before
+  content ""
+  position absolute
+  left 0
+  top 0.25em
+  width 1em
+  height 0.15em
+  background white
+  box-shadow 0 0.25em 0 0 white, 0 0.5em 0 0 white
+  &:hover
+    cursor pointer
+
+.hamburger
+  position fixed
+  .hamburger-inner
+  .hamburger-inner:after
+  .hamburger-inner:before
+    background #ddd
+  &:focus
+   outline 0
+
+.menu
+  display none
+  position fixed
+  top 12px
+  left 70px
+  background #eee
+  ul
+    list-style none
+    padding-left 0
+    margin 0
+    li
+      min-width 220px
+      padding 10px 40px
+      text-align center
+      line-height 150%
+      font-size 20px
+      border-bottom 1px dotted pinky
+      &:hover
+        cursor pointer
+        color #eee
+        background pinky
+        a
+          color #eee
+          background transparent
+      &.active
+        cursor default
+        color #eee
+        background pinky
+        a
+          color #eee
+          background transparent
+          cursor default
+
 body
   margin 0 auto
-  background black
-  color #ddd
+  // background black
+  background white
+  // color #ddd
+  color #333
   font-family 'Open-Sans', sans-serif
   font-size 14px
 
