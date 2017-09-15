@@ -1,3 +1,17 @@
+.parallax-window
+  min-height 60vh
+  display flex
+  justify-content center
+  align-items center
+  h2
+    font-family 'Montserrat', sans-serif
+    font-size 60px
+    font-weight 900
+    font-style italic
+    text-transform uppercase
+    color pinky
+    text-shadow 2px 2px 3px rgba(20,20,20,0.6)
+
 .container
   &.first
     display flex
@@ -13,7 +27,7 @@
 
 .module
   .container
-    padding-top 50px
+    padding-top 36px
     padding-bottom 50px
 
 .module
@@ -32,14 +46,10 @@
     h1
     h2
       color pinky
-      // color yellow
-      font-family 'Roboto', sans-serif
       line-height 600px
-      font-weight 900
-      text-align center
-      text-shadow 2px 2px 3px rgba(20,20,20,0.6)
       &.true-lies
         font-family 'true lies', sans-serif
+        font-weight 500
         text-shadow 3px 13px 6px rgba(20,20,20,0.6)
         transform rotate(-2deg)
       &:hover
@@ -54,19 +64,6 @@
 .module
   &#about
     background-image url('../img/01-3-1920.jpg')
-
-  &#actions
-    background-image url('../img/03-6-1920.jpg')
-
-  &#pastfuture
-    background-image url('../img/01-6-1920.jpg')
-
-  &#contact
-    background-image url('../img/01-4-1920.jpg')
-
-@media all and (min-width 600px)
-  .module
-    font-size 18px
 
 @media all and (min-width 960px)
   .module
